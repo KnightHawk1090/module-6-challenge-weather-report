@@ -42,6 +42,11 @@
     border: 3px solid rgba(249, 4, 4, 0.884);
   }
 
+
+  .card-body {
+    font-size: large !important;
+  }
+
   /*buttons appear in list. Mouse becomes hand when hovering over*/
   .btn {
     background-color:	#5c0000; 
@@ -79,5 +84,21 @@
   .temp {
     border: 25px;
     text-align: center;
-    font-weight: bold;
+    font-size: medium;
     }
+
+    .weatherIcon {
+      width: 100px;
+      margin: 0 auto;
+    }
+
+    @media screen and (max-width: 900px) {
+      .col {
+         width: 50%;
+      }
+   }
+   @media screen and (max-width: 600px) {
+      .col {
+         width: 100%;
+      }
+   }
